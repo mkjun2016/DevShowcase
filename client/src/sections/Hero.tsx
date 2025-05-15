@@ -24,7 +24,7 @@ export default function Hero() {
               Full-Stack Developer
             </span>
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Hey, I'm <span className="text-primary">Alex Chen</span>
+              Hey, I'm <span className="text-primary">Kevin Jun</span>
               <span className="block mt-2">I build things for the web</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-lg">

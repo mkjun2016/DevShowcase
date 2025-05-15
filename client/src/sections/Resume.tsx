@@ -76,7 +76,7 @@ export default function Resume() {
           <div className="p-8">
             <div className="flex flex-col md:flex-row justify-between mb-8">
               <div>
-                <h3 className="font-heading text-2xl font-bold mb-2">Alex Chen</h3>
+                <h3 className="font-heading text-2xl font-bold mb-2">Kevin Jun</h3>
                 <p className="text-primary font-medium mb-4">Full-Stack Developer</p>
 
                 <div className="flex flex-wrap gap-3 mb-4">

@@ -38,7 +38,7 @@ export default function Header() {
           <span className="text-primary text-2xl">
             <Code />
           </span>
-          <h1 className="font-heading font-bold text-xl">DevPortfolio</h1>
+          <h1 className="font-heading font-bold text-xl">Kevin Jun</h1>
         </a>
 
         <nav className="hidden md:flex items-center space-x-8">

@@ -16,7 +16,7 @@ export default function Contact() {
     {
       icon: <Mail className="text-primary text-xl" />,
       label: "Email",
-      value: "alex@example.com",
+      value: "kevin@example.com",
     },
     {
       icon: <Phone className="text-primary text-xl" />,

@@ -46,7 +46,7 @@ export default function Footer() {
               <span className="text-primary text-2xl">
                 <Code />
               </span>
-              <h2 className="font-heading font-bold text-xl">DevPortfolio</h2>
+              <h2 className="font-heading font-bold text-xl">Kevin Jun</h2>
             </div>
             <p className="text-gray-400 mb-6">
               Building innovative web and mobile solutions with modern
@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row md:justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            © {currentYear} Alex Chen. All rights reserved.
+            © {currentYear} Kevin Jun. All rights reserved.
           </p>
           <div className="flex items-center space-x-6">
             <a

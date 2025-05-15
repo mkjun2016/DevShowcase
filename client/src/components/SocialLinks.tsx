@@ -14,7 +14,7 @@ export default function SocialLinks({ variant = "default" }: SocialLinkProps) {
   return (
     <div className="flex space-x-5">
       <a
-        href="https://github.com"
+        href="https://github.com/mkjun2016"
         className={baseClasses}
         target="_blank"
         rel="noopener noreferrer"
@@ -23,31 +23,13 @@ export default function SocialLinks({ variant = "default" }: SocialLinkProps) {
         <Github className="h-6 w-6" />
       </a>
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/mkjunkevin/"
         className={baseClasses}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn Profile"
       >
         <Linkedin className="h-6 w-6" />
-      </a>
-      <a
-        href="https://twitter.com"
-        className={baseClasses}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Twitter Profile"
-      >
-        <Twitter className="h-6 w-6" />
-      </a>
-      <a
-        href="https://dribbble.com"
-        className={baseClasses}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Dribbble Profile"
-      >
-        <Dribbble className="h-6 w-6" />
       </a>
     </div>
   );

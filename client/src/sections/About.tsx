@@ -5,31 +5,30 @@ import { useScrollObserver } from "@/hooks/useScrollObserver";
 
 const skills = [
   "Frontend Development",
+  "APP Development",
   "Backend Architecture",
   "UI/UX Design",
-  "Database Design",
-  "API Development",
-  "DevOps & CI/CD",
+  "AI Development",
+  "Data Science",
 ];
 
 const timelineItems = [
   {
-    period: "2017 - 2019",
-    role: "Frontend Developer at TechStart Inc.",
+    period: "2023.07 - 2023.09",
+    role: "Frontend Intern at J&J Tech Inc.",
     description:
-      "Built responsive web applications using React and Redux. Worked closely with designers to implement pixel-perfect interfaces and improved site performance by 40%.",
+      "Contributed to the development of YakManager, a cross-platform pharmacy management app, using React Native and TypeScript. Led UI/UX improvements, API integration, and landing page implementation, while also conducting competitor analysis and marketing strategy, boosting LinkedIn traffic by 333%.",
   },
   {
-    period: "2019 - 2021",
-    role: "Full-Stack Developer at InnovateSoft",
+    period: "2023.10 - 2025.04",
+    role: "Computer Engineer at Republic of Korean Army",
     description:
-      "Developed full-stack applications using the MERN stack. Led a team of 3 developers and implemented CI/CD pipelines that reduced deployment time by 60%.",
+      "Maintained and supported tactical C4I systems with a focus on operational stability and performance. Oversaw database management, data backups, and communication integrity between servers and terminals, ensuring system reliability and secure information flow.",
   },
   {
-    period: "2021 - Present",
-    role: "Senior Developer at CloudScale",
-    description:
-      "Architecting scalable microservices and leading development of the company's flagship SaaS product. Mentoring junior developers and establishing best practices.",
+    period: "2025.04 - Present",
+    role: "Frontend Intern at Markcloud Co., Ltd.",
+    description: "TBD",
   },
 ];
 
@@ -37,11 +36,7 @@ export default function About() {
   const [ref, inView] = useScrollObserver();
 
   return (
-    <section
-      id="about"
-      className="py-20 bg-gray-50 dark:bg-gray-900"
-      ref={ref}
-    >
+    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900" ref={ref}>
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -54,7 +49,7 @@ export default function About() {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-400 text-lg">
-            My journey from curious tinkerer to professional developer
+            My journey from ambitious entrepreneur to professional developer
           </p>
         </motion.div>
 
@@ -73,7 +68,7 @@ export default function About() {
 
               <div className="absolute bottom-4 right-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
                 <p className="font-heading font-bold">
-                  <span className="text-primary">5+</span> years of experience
+                  <span className="text-primary">6+</span> months of experience
                 </p>
               </div>
             </div>
@@ -88,16 +83,24 @@ export default function About() {
               My Background
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-6">
-              I'm a passionate full-stack developer with a background in
-              computer science and a love for creating elegant solutions to
-              complex problems. I've been building web applications
-              professionally for over 5 years, working with startups and
-              established companies alike.
+              I'm a driven computer science student passionate about full-stack
+              development and machine learning, with hands-on experience in
+              frontend engineering and a strong foundation in software
+              architecture. I’ve built responsive, user-focused applications
+              across startups and solo projects—always aiming to solve
+              real-world problems with clarity, efficiency, and impact. My work
+              reflects a commitment to clean code, scalable systems, and
+              intuitive user experiences that align with business goals.
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-6">
-              My approach combines technical excellence with user-centered
-              design principles. I believe in writing clean, maintainable code
-              that scales well and delivers exceptional user experiences.
+              I thrive in project-driven environments where I can explore
+              diverse challenges and develop innovative, high-impact features.
+              I'm especially excited about contributing to AI-powered
+              applications, building enterprise-grade functionality, and
+              collaborating with teams that value growth, creativity, and
+              thoughtful engineering. I'm currently seeking internship
+              opportunities where I can apply my skills, learn from others, and
+              help shape smarter, more efficient solutions.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">

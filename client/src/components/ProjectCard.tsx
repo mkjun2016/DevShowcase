@@ -20,11 +20,13 @@ const categoryLabels = {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg card-hover h-full">
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-48 object-cover"
-      />
+      <div className="w-full h-48 flex justify-center items-center bg-gray-100 dark:bg-gray-700 overflow-hidden">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="object-contain h-full"
+        />
+      </div>
 
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">

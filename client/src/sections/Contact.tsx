@@ -1,5 +1,5 @@
 import ContactForm from "@/components/ContactForm";
-import { MapPin, Mail, Phone, Clock } from "lucide-react";
+import { MapPin, Mail, Phone, Clock, MessageSquareCode } from "lucide-react";
 import SocialLinks from "@/components/SocialLinks";
 import { motion } from "framer-motion";
 import { useScrollObserver } from "@/hooks/useScrollObserver";
@@ -11,27 +11,31 @@ export default function Contact() {
     {
       icon: <MapPin className="text-primary text-xl" />,
       label: "Location",
-      value: "San Francisco, California",
+      value: "Incheon, South Korea",
     },
     {
       icon: <Mail className="text-primary text-xl" />,
       label: "Email",
-      value: "kevin@example.com",
+      value: "mkjun55@gmail.com",
     },
     {
       icon: <Phone className="text-primary text-xl" />,
       label: "Phone",
-      value: "(123) 456-7890",
+      value: "(+82) 10-9316-8971",
     },
     {
-      icon: <Clock className="text-primary text-xl" />,
-      label: "Working Hours",
-      value: "Monday - Friday, 9AM - 6PM PST",
+      icon: <MessageSquareCode className="text-primary text-xl" />,
+      label: "KakaoTalk",
+      value: "bkjunn",
     },
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900" ref={ref}>
+    <section
+      id="contact"
+      className="py-20 bg-gray-50 dark:bg-gray-900"
+      ref={ref}
+    >
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -80,28 +84,16 @@ export default function Contact() {
               </h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/mkjun2016"
                   className="bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 p-3 rounded-lg shadow-md transition-colors duration-300"
                 >
                   <i className="ri-github-fill text-xl"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/mkjunkevin/"
                   className="bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 p-3 rounded-lg shadow-md transition-colors duration-300"
                 >
                   <i className="ri-linkedin-fill text-xl"></i>
-                </a>
-                <a
-                  href="#"
-                  className="bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 p-3 rounded-lg shadow-md transition-colors duration-300"
-                >
-                  <i className="ri-twitter-fill text-xl"></i>
-                </a>
-                <a
-                  href="#"
-                  className="bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 p-3 rounded-lg shadow-md transition-colors duration-300"
-                >
-                  <i className="ri-dribbble-fill text-xl"></i>
                 </a>
               </div>
             </div>

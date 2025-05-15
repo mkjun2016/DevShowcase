@@ -17,23 +17,23 @@ export default function Footer() {
     { name: "Web Development", href: "#" },
     { name: "Mobile Apps", href: "#" },
     { name: "UI/UX Design", href: "#" },
-    { name: "API Development", href: "#" },
-    { name: "Code Review", href: "#" },
+    { name: "AI Development", href: "#" },
+    { name: "Data Science", href: "#" },
     { name: "Consulting", href: "#" },
   ];
 
   const contactItems = [
     {
       icon: <MapPin className="text-primary mt-1 mr-3 h-4 w-4" />,
-      text: "San Francisco, California",
+      text: "Incheon, South Korea",
     },
     {
       icon: <Mail className="text-primary mt-1 mr-3 h-4 w-4" />,
-      text: "alex@example.com",
+      text: "mkjun55@gmail.com",
     },
     {
       icon: <Phone className="text-primary mt-1 mr-3 h-4 w-4" />,
-      text: "(123) 456-7890",
+      text: "(+82) 10-9316-8971",
     },
   ];
 
@@ -104,26 +104,6 @@ export default function Footer() {
           <p className="text-gray-400 mb-4 md:mb-0">
             © {currentYear} Kevin Jun. All rights reserved.
           </p>
-          <div className="flex items-center space-x-6">
-            <a
-              href="#"
-              className="text-gray-400 hover:text-primary transition-colors duration-300"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-primary transition-colors duration-300"
-            >
-              Terms of Service
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-primary transition-colors duration-300"
-            >
-              Cookies
-            </a>
-          </div>
         </div>
       </div>
     </footer>

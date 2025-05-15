@@ -6,7 +6,11 @@ interface SkillBarProps {
   delay?: number;
 }
 
-export default function SkillBar({ name, percentage, delay = 0 }: SkillBarProps) {
+export default function SkillBar({
+  name,
+  percentage,
+  delay = 0,
+}: SkillBarProps) {
   return (
     <div>
       <div className="flex justify-between mb-1">
@@ -17,9 +21,8 @@ export default function SkillBar({ name, percentage, delay = 0 }: SkillBarProps)
         <motion.div
           className="skill-bar bg-primary h-2.5 rounded-full"
           initial={{ width: 0 }}
-          whileInView={{ width: `${percentage}%` }}
-          transition={{ duration: 1.5, delay }}
-          viewport={{ once: true, margin: "-100px" }}
+          animate={{ width: `${percentage}%` }}
+          transition={{ duration: 0.8, delay }}
         />
       </div>
     </div>
